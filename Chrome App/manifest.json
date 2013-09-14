@@ -1,0 +1,14 @@
+{
+  "manifest_version":2,
+  "name":"LeapingPropeller",
+  "version":"0.1",
+  "description":"Interact with a Parallax Propeller via the Leap Motion",
+  "permissions":[
+    "serial"
+  ],
+  "app": {
+    "background": {
+      "scripts":["main.js"]
+    }
+  }
+}
