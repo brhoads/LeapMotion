@@ -13,3 +13,9 @@ A simple demonstration piece to turn on up to 8 LEDs connected to a Parallax Pro
 * Visit [chrome://extensions](chrome://extensions) 
 * Click "Load unpacked extensions..." and browse to the location of the repository
 * Click on "Launch"
+
+##Wiring
+* PWM output of Propeller -> 10K Resistor ->  Base of NPN 2N222A transistor
+* GND -> Emitter of transistor
+* 5V -> 300 Ohm Resistor -> LED -> Collector of transistor
+* Wire on pins 17-24
